@@ -1,5 +1,5 @@
 # OLED Guard Pro
-
+https://github.com/daker-zhao/OLEDGuard/blob/master/master.png
 macOS 状态栏应用，用于保护 OLED 屏幕，防止烧屏。
 
 ## 功能介绍
