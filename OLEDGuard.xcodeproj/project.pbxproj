@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BCE91012F41B5DD0046EBCF /* OLEDController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCE91002F41B5DD0046EBCF /* OLEDController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BCE90E22F41B4CA0046EBCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BCE90C82F41B4C90046EBCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BCE90CF2F41B4C90046EBCF;
+			remoteInfo = OLEDGuard;
+		};
+		6BCE90EC2F41B4CA0046EBCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BCE90C82F41B4C90046EBCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BCE90CF2F41B4C90046EBCF;
+			remoteInfo = OLEDGuard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6BCE90D02F41B4C90046EBCF /* OLEDGuard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OLEDGuard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BCE90E12F41B4CA0046EBCF /* OLEDGuardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OLEDGuardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BCE90EB2F41B4CA0046EBCF /* OLEDGuardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OLEDGuardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BCE91002F41B5DD0046EBCF /* OLEDController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLEDController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6BCE90FF2F41B5580046EBCF /* Exceptions for "OLEDGuard" folder in "OLEDGuard" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 6BCE90CF2F41B4C90046EBCF /* OLEDGuard */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6BCE90D22F41B4C90046EBCF /* OLEDGuard */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6BCE90FF2F41B5580046EBCF /* Exceptions for "OLEDGuard" folder in "OLEDGuard" target */,
+			);
+			path = OLEDGuard;
+			sourceTree = "<group>";
+		};
+		6BCE90E42F41B4CA0046EBCF /* OLEDGuardTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OLEDGuardTests;
+			sourceTree = "<group>";
+		};
+		6BCE90EE2F41B4CA0046EBCF /* OLEDGuardUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OLEDGuardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BCE90CD2F41B4C90046EBCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BCE90DE2F41B4CA0046EBCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BCE90E82F41B4CA0046EBCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BCE90C72F41B4C90046EBCF = {
+			isa = PBXGroup;
+			children = (
+				6BCE91002F41B5DD0046EBCF /* OLEDController.swift */,
+				6BCE90D22F41B4C90046EBCF /* OLEDGuard */,
+				6BCE90E42F41B4CA0046EBCF /* OLEDGuardTests */,
+				6BCE90EE2F41B4CA0046EBCF /* OLEDGuardUITests */,
+				6BCE90D12F41B4C90046EBCF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BCE90D12F41B4C90046EBCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BCE90D02F41B4C90046EBCF /* OLEDGuard.app */,
+				6BCE90E12F41B4CA0046EBCF /* OLEDGuardTests.xctest */,
+				6BCE90EB2F41B4CA0046EBCF /* OLEDGuardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BCE90CF2F41B4C90046EBCF /* OLEDGuard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BCE90F52F41B4CA0046EBCF /* Build configuration list for PBXNativeTarget "OLEDGuard" */;
+			buildPhases = (
+				6BCE90CC2F41B4C90046EBCF /* Sources */,
+				6BCE90CD2F41B4C90046EBCF /* Frameworks */,
+				6BCE90CE2F41B4C90046EBCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6BCE90D22F41B4C90046EBCF /* OLEDGuard */,
+			);
+			name = OLEDGuard;
+			packageProductDependencies = (
+			);
+			productName = OLEDGuard;
+			productReference = 6BCE90D02F41B4C90046EBCF /* OLEDGuard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6BCE90E02F41B4CA0046EBCF /* OLEDGuardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BCE90F82F41B4CA0046EBCF /* Build configuration list for PBXNativeTarget "OLEDGuardTests" */;
+			buildPhases = (
+				6BCE90DD2F41B4CA0046EBCF /* Sources */,
+				6BCE90DE2F41B4CA0046EBCF /* Frameworks */,
+				6BCE90DF2F41B4CA0046EBCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BCE90E32F41B4CA0046EBCF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6BCE90E42F41B4CA0046EBCF /* OLEDGuardTests */,
+			);
+			name = OLEDGuardTests;
+			packageProductDependencies = (
+			);
+			productName = OLEDGuardTests;
+			productReference = 6BCE90E12F41B4CA0046EBCF /* OLEDGuardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6BCE90EA2F41B4CA0046EBCF /* OLEDGuardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BCE90FB2F41B4CA0046EBCF /* Build configuration list for PBXNativeTarget "OLEDGuardUITests" */;
+			buildPhases = (
+				6BCE90E72F41B4CA0046EBCF /* Sources */,
+				6BCE90E82F41B4CA0046EBCF /* Frameworks */,
+				6BCE90E92F41B4CA0046EBCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BCE90ED2F41B4CA0046EBCF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6BCE90EE2F41B4CA0046EBCF /* OLEDGuardUITests */,
+			);
+			name = OLEDGuardUITests;
+			packageProductDependencies = (
+			);
+			productName = OLEDGuardUITests;
+			productReference = 6BCE90EB2F41B4CA0046EBCF /* OLEDGuardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BCE90C82F41B4C90046EBCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					6BCE90CF2F41B4C90046EBCF = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					6BCE90E02F41B4CA0046EBCF = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 6BCE90CF2F41B4C90046EBCF;
+					};
+					6BCE90EA2F41B4CA0046EBCF = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 6BCE90CF2F41B4C90046EBCF;
+					};
+				};
+			};
+			buildConfigurationList = 6BCE90CB2F41B4C90046EBCF /* Build configuration list for PBXProject "OLEDGuard" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BCE90C72F41B4C90046EBCF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6BCE90D12F41B4C90046EBCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BCE90CF2F41B4C90046EBCF /* OLEDGuard */,
+				6BCE90E02F41B4CA0046EBCF /* OLEDGuardTests */,
+				6BCE90EA2F41B4CA0046EBCF /* OLEDGuardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BCE90CE2F41B4C90046EBCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BCE90DF2F41B4CA0046EBCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BCE90E92F41B4CA0046EBCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BCE90CC2F41B4C90046EBCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BCE91012F41B5DD0046EBCF /* OLEDController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BCE90DD2F41B4CA0046EBCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BCE90E72F41B4CA0046EBCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BCE90E32F41B4CA0046EBCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BCE90CF2F41B4C90046EBCF /* OLEDGuard */;
+			targetProxy = 6BCE90E22F41B4CA0046EBCF /* PBXContainerItemProxy */;
+		};
+		6BCE90ED2F41B4CA0046EBCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BCE90CF2F41B4C90046EBCF /* OLEDGuard */;
+			targetProxy = 6BCE90EC2F41B4CA0046EBCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6BCE90F32F41B4CA0046EBCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6BCE90F42F41B4CA0046EBCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		6BCE90F62F41B4CA0046EBCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon 1";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = OLEDGuard/OLEDGuard.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 11;
+				DEVELOPMENT_ASSET_PATHS = "\"OLEDGuard/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OLEDGuard/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSDesktopFolderUsageDescription = "需要权限以监测屏幕变化防止烧屏";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.7.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaotianen.OLEDGuard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6BCE90F72F41B4CA0046EBCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon 1";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = OLEDGuard/OLEDGuard.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 11;
+				DEVELOPMENT_ASSET_PATHS = "\"OLEDGuard/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OLEDGuard/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSDesktopFolderUsageDescription = "需要权限以监测屏幕变化防止烧屏";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.7.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaotianen.OLEDGuard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6BCE90F92F41B4CA0046EBCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaotianen.OLEDGuardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OLEDGuard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OLEDGuard";
+			};
+			name = Debug;
+		};
+		6BCE90FA2F41B4CA0046EBCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaotianen.OLEDGuardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OLEDGuard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OLEDGuard";
+			};
+			name = Release;
+		};
+		6BCE90FC2F41B4CA0046EBCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaotianen.OLEDGuardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = OLEDGuard;
+			};
+			name = Debug;
+		};
+		6BCE90FD2F41B4CA0046EBCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaotianen.OLEDGuardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = OLEDGuard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BCE90CB2F41B4C90046EBCF /* Build configuration list for PBXProject "OLEDGuard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BCE90F32F41B4CA0046EBCF /* Debug */,
+				6BCE90F42F41B4CA0046EBCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BCE90F52F41B4CA0046EBCF /* Build configuration list for PBXNativeTarget "OLEDGuard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BCE90F62F41B4CA0046EBCF /* Debug */,
+				6BCE90F72F41B4CA0046EBCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BCE90F82F41B4CA0046EBCF /* Build configuration list for PBXNativeTarget "OLEDGuardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BCE90F92F41B4CA0046EBCF /* Debug */,
+				6BCE90FA2F41B4CA0046EBCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BCE90FB2F41B4CA0046EBCF /* Build configuration list for PBXNativeTarget "OLEDGuardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BCE90FC2F41B4CA0046EBCF /* Debug */,
+				6BCE90FD2F41B4CA0046EBCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BCE90C82F41B4C90046EBCF /* Project object */;
+}
