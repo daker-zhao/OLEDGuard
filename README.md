@@ -2,6 +2,8 @@
 
 macOS 状态栏应用，用于保护 OLED 屏幕，防止烧屏。
 
+![OLED Guard Pro 主界面](master.png)
+
 ## 功能介绍
 
 ### 核心保护机制
